@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshmi Entrepreneurs - Electronics Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>🏪 Lakshmi Entrepreneurs</h1>
+      <p>Your Electronics Store</p>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Lakshmi Entrepreneurs</h2>
+      <p>Best Electronics Products for Arduino, Sensors & Components</p>
+    </section>
+
+    <section id="products" class="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        
+        <!-- Product 1: Arduino -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/250x250?text=Arduino+Uno+R3" alt="Arduino Uno R3">
+          </div>
+          <div class="product-info">
+            <h3>Arduino Uno R3</h3>
+            <p class="price">₹499</p>
+            <p class="status">✅ In Stock</p>
+            <ul class="specs">
+              <li>Microcontroller: ATmega328P</li>
+              <li>Operating Voltage: 5V</li>
+              <li>Digital I/O Pins: 14</li>
+              <li>Clock Speed: 16 MHz</li>
+            </ul>
+            <div class="buttons">
+              <button class="btn-cart">🛒 Add to Cart</button>
+              <a href="arduino.html" class="btn-buy">👁️ View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Sensor -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/250x250?text=HC-SR04+Sensor" alt="HC-SR04 Sensor">
+          </div>
+          <div class="product-info">
+            <h3>HC-SR04 Ultrasonic Sensor</h3>
+            <p class="price">₹249</p>
+            <p class="status">✅ In Stock</p>
+            <ul class="specs">
+              <li>Measuring Range: 2-400 cm</li>
+              <li>Operating Voltage: 5V DC</li>
+              <li>Frequency: 40 kHz</li>
+              <li>Accuracy: ±0.3 cm</li>
+            </ul>
+            <div class="buttons">
+              <button class="btn-cart">🛒 Add to Cart</button>
+              <a href="sensor.html" class="btn-buy">👁️ View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Breadboard -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/250x250?text=Breadboard+400" alt="Breadboard">
+          </div>
+          <div class="product-info">
+            <h3>Breadboard 400 Points</h3>
+            <p class="price">₹99</p>
+            <p class="status">✅ In Stock</p>
+            <ul class="specs">
+              <li>Tie Points: 400</li>
+              <li>Power Rails: Dual</li>
+              <li>Color: White</li>
+              <li>Durable & Reusable</li>
+            </ul>
+            <div class="buttons">
+              <button class="btn-cart">🛒 Add to Cart</button>
+              <button class="btn-buy">👁️ View Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Jumper Wires -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/250x250?text=Jumper+Wires" alt="Jumper Wires">
+          </div>
+          <div class="product-info">
+            <h3>Jumper Wire Set (40 pcs)</h3>
+            <p class="price">₹79</p>
+            <p class="status">✅ In Stock</p>
+            <ul class="specs">
+              <li>Quantity: 40 pieces</li>
+              <li>Lengths: Mixed</li>
+              <li>Color: Multi-color</li>
+              <li>Perfect for Prototyping</li>
+            </ul>
+            <div class="buttons">
+              <button class="btn-cart">🛒 Add to Cart</button>
+              <button class="btn-buy">👁️ View Details</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p>📧 Email: info@lakshmi-entrepreneurs.com</p>
+      <p>📞 Phone: +91-XXXXXXXXXX</p>
+      <p>📍 Location: India</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Lakshmi Entrepreneurs. All Rights Reserved. | Electronics for Innovation 🚀</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.btn-cart').forEach(btn => {
+      btn.addEventListener('click', function() {
+        alert('✅ Product added to cart!');
+      });
+    });
+  </script>
+</body>
+</html>
